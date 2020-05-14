@@ -6,7 +6,7 @@ node {
 
         println "start"
         git 'https://github.com/nikrosss/pipline.git'
-        bat (/groovy build_conf_fp_name.groovy  mame=%FP_NAME%/)
+        bat (/groovy build_conf_fp_name.groovy  %FP_NAME%/)
     }
     stage('Build') {
 
