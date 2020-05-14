@@ -4,7 +4,7 @@ node {
 
    stage('Preparation') { // for display purposes
 
-    println {WORKSPACE}
+    println "start"
 
    }
    stage('Build') {
