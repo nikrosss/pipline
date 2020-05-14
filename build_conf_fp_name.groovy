@@ -5,9 +5,9 @@ class Start{
         def new_dir = new File('conf')
         new_dir.mkdir()
 
-        //def fp_name = "lol"//args[0];
+        def fp_name = args[0];
 
-        build_fp_name_conf(arg_fp_name);
+        //build_fp_name_conf(arg_fp_name);
 
         def pw = new File("${fp_name}.conf")
 
